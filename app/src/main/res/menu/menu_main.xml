@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="istd.eric.myapp1.MainActivity" >
+
+    <item android:id="@+id/action_awesomeface"
+        android:icon="@drawable/awesomeface"
+        android:title="awesome face"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_set3"
+        android:title="Settings3"
+        android:titleCondensed="SET3"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_set2"
+        android:title="Settings two"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

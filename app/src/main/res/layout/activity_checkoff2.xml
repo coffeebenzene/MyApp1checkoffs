@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_checkoff2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:paddingTop="16dp"
+    tools:context="istd.eric.myapp1.Checkoff2Activity">
+
+    <Button
+        android:id="@+id/gopage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST3"
+        android:onClick="gopage2"
+        />
+
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/uwaaa"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/gopage2"
+        android:id="@+id/uwaaa" />
+
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uwaaa"
+        android:layout_marginTop="2dp"
+        android:id="@+id/textView_name" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Name"
+        android:ems="10"
+        android:layout_alignTop="@id/textView_name"
+        android:layout_toRightOf="@id/textView_name"
+        android:id="@+id/editText_name" />
+
+    <TextView
+        android:text="Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_name"
+        android:layout_marginTop="2dp"
+        android:id="@+id/textView_num" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter number"
+        android:ems="10"
+        android:layout_alignTop="@id/textView_num"
+        android:layout_toRightOf="@id/textView_num"
+        android:id="@+id/editText_num" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editText_num"
+        android:id="@+id/radioGroup">
+        <RadioButton
+            android:text="RadioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton1"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="RadioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/goemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup"
+        android:layout_marginTop="2dp"
+        android:text="Email"
+        android:onClick="goemail"
+        />
+
+    <ImageView
+        android:layout_width="101.5dp"
+        android:layout_height="87.5dp"
+        app:srcCompat="@drawable/goaway"
+        android:layout_below="@+id/goemail"
+        android:layout_marginTop="2dp"
+        android:id="@+id/goaway" />
+
+    <ImageView
+        android:layout_width="101.5dp"
+        android:layout_height="87.5dp"
+        app:srcCompat="@drawable/heeelp"
+        android:layout_below="@+id/goaway"
+        android:layout_marginTop="2dp"
+        android:id="@+id/heeelp" />
+
+</RelativeLayout>

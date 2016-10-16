@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:paddingTop="32dp"
+    android:paddingBottom="32dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    tools:context="istd.eric.myapp1.MainActivity">
+
+    <Button
+        android:id="@+id/gocheckoff2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to checkoff 2(UI) &amp; HW2(animation)"
+        android:tag="Checkoff2Activity"
+        android:onClick="movetocheckoff"
+        />
+
+    <Button
+        android:id="@+id/gocheckoff3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to checkoff 3 (Frames)"
+        android:tag="Checkoff3Activity"
+        android:onClick="movetocheckoff"
+        />
+
+    <Button
+        android:id="@+id/gohwcheckoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to checkoff HW1(Actionbar) &amp; HW3(scrollbar)"
+        android:tag="CheckoffHW1Activity"
+        android:onClick="movetocheckoff"
+        />
+
+</LinearLayout>
