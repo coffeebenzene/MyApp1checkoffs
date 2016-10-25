@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="istd.eric.myapp1.MainActivity" >
+    tools:context="istd.eric.myapp1checkoffs.MainActivity" >
 
     <item android:id="@+id/action_awesomeface"
         android:icon="@drawable/awesomeface"

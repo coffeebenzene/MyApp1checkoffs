@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="istd.eric.myapp1.Checkoff3Activity">
+    tools:context="istd.eric.myapp1checkoffs.Checkoff3Activity">
 
     <Button
         android:id="@+id/frag1"

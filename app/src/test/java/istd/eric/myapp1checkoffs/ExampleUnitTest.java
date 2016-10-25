@@ -1,4 +1,4 @@
-package istd.eric.myapp1;
+package istd.eric.myapp1checkoffs;
 
 import org.junit.Test;
 

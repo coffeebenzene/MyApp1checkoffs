@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "906697249012",
+    "firebase_url": "https://ericteo50dot001xc7e.firebaseio.com",
+    "project_id": "ericteo50dot001xc7e",
+    "storage_bucket": "ericteo50dot001xc7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906697249012:android:d81f6e139d7fc809",
+        "android_client_info": {
+          "package_name": "istd.eric.myapp1checkoffs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906697249012-klad47v5qtn96f1ipsaca34952bsr2h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiULis799yWkyl-BfFmrITThzmLPJ_3NA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

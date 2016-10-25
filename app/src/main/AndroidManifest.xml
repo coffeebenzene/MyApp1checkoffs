@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="istd.eric.myapp1">
+    package="istd.eric.myapp1checkoffs">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
 
     <application
         android:allowBackup="true"
@@ -31,7 +38,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="istd.eric.myapp1checkoffs.MainActivity" />
         </activity>
         >
         <activity
@@ -41,8 +48,31 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".CheckoffHW1Activity" />
+                android:value="istd.eric.myapp1checkoffs.CheckoffHW1Activity" />
         </activity>
+        <activity android:name=".CheckoffFilesActivity" />
+        <activity android:name=".CheckoffMapActivity" />
+        <activity android:name=".CheckoffCameraActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="istd.eric.myapp1checkoffs"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name=".CheckoffFirebaseActivity" />
+        <activity
+            android:name=".CheckoffSQLActivity"
+            android:label="Student Particulars password" />
+        <activity
+            android:name=".CheckoffSQLActivity_entry"
+            android:label="Student Particulars SQL" />
+        <activity android:name=".CheckoffClientActivity" />
+        <activity android:name=".CheckoffServerActivity"></activity>
     </application>
 
 </manifest>

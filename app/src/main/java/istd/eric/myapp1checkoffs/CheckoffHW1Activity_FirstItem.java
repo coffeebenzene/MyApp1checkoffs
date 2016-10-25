@@ -1,11 +1,8 @@
-package istd.eric.myapp1;
+package istd.eric.myapp1checkoffs;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.Toast;
 
 public class CheckoffHW1Activity_FirstItem extends AppCompatActivity {
 

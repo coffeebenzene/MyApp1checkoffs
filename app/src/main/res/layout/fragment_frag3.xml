@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#00FF00"
-    tools:context="istd.eric.myapp1.Frag3">
+    tools:context="istd.eric.myapp1checkoffs.Frag3">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

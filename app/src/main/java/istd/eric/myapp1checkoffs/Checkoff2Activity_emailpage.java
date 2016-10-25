@@ -1,4 +1,4 @@
-package istd.eric.myapp1;
+package istd.eric.myapp1checkoffs;
 
 import android.content.Intent;
 import android.net.Uri;

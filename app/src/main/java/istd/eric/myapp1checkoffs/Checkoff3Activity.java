@@ -1,4 +1,4 @@
-package istd.eric.myapp1;
+package istd.eric.myapp1checkoffs;
 
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -6,10 +6,7 @@ import android.net.Uri;
 import android.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-
-import java.util.logging.Logger;
 
 public class Checkoff3Activity extends AppCompatActivity implements
                                                             Frag1.OnFragmentInteractionListener,

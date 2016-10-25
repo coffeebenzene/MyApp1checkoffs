@@ -1,4 +1,4 @@
-package istd.eric.myapp1;
+package istd.eric.myapp1checkoffs;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     public void movetocheckoff(View v){ //Checkoff dispatcher.
         String tocheckoff = (String) v.getTag();
         try {
-            Intent intent = new Intent(this, Class.forName("istd.eric.myapp1."+tocheckoff));
+            Intent intent = new Intent(this, Class.forName("istd.eric.myapp1checkoffs."+tocheckoff));
             startActivity(intent);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

@@ -1,4 +1,4 @@
-package istd.eric.myapp1;
+package istd.eric.myapp1checkoffs;
 
 import android.content.Context;
 import android.net.Uri;
@@ -7,28 +7,43 @@ import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Frag3.OnFragmentInteractionListener} interface
+ * {@link Frag2.OnFragmentInteractionListener} interface
  * to handle interaction events.
  */
-public class Frag3 extends Fragment {
-
+public class Frag2 extends Fragment {
     private OnFragmentInteractionListener mListener;
 
-    public Frag3() {
+    public Frag2() {
         // Required empty public constructor
     }
 
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_frag3, container, false);
+        final View v = inflater.inflate(R.layout.fragment_frag2, container, false);
+        WebView wv = (WebView) v.findViewById(R.id.sutdfrag);
+        wv.getSettings().setJavaScriptEnabled(true);
+        wv.loadUrl("http://www.sutd.edu.sg");
+        wv.setWebViewClient(new WebViewClient() {
+            public void onPageFinished(WebView view, String url) {
+                v.findViewById(R.id.sutdfrag).setVisibility(View.VISIBLE);
+                v.findViewById(R.id.frag2).setVisibility(View.GONE);
+            }
+        });
+        return v;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

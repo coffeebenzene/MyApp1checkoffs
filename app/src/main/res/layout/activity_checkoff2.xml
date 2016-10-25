@@ -9,7 +9,7 @@
     android:paddingLeft="32dp"
     android:paddingRight="32dp"
     android:paddingTop="16dp"
-    tools:context="istd.eric.myapp1.Checkoff2Activity">
+    tools:context="istd.eric.myapp1checkoffs.Checkoff2Activity">
 
     <Button
         android:id="@+id/gopage2"

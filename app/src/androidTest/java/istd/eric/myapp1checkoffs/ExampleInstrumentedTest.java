@@ -1,4 +1,4 @@
-package istd.eric.myapp1;
+package istd.eric.myapp1checkoffs;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

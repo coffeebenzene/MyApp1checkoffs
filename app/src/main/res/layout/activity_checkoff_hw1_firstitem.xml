@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="istd.eric.myapp1.CheckoffHW1Activity_FirstItem">
+    tools:context="istd.eric.myapp1checkoffs.CheckoffHW1Activity_FirstItem">
 
     <LinearLayout
         android:layout_width="match_parent"

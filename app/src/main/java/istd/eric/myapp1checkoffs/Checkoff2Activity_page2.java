@@ -1,4 +1,4 @@
-package istd.eric.myapp1;
+package istd.eric.myapp1checkoffs;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
